@@ -18,16 +18,16 @@ Atalho: clique no botão **Open in Colab** do notebook. Depois siga os passos 5 
 
 | Notebook | Módulo | |
 |---|---|---|
-| `01_classificacao_ner` | Classificação de texto e NER: ML clássico × transformers | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pgcferreira-stack/aula-transformers-fgv/blob/main/notebooks/01_classificacao_ner.ipynb) |
-| `02_atencao_e_minigpt` | Arquitetura do transformer e um mini-GPT treinado do zero | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pgcferreira-stack/aula-transformers-fgv/blob/main/notebooks/02_atencao_e_minigpt.ipynb) |
-| `03_respostas_automaticas` | Fine-tuning (LoRA) × RAG para respostas automáticas | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pgcferreira-stack/aula-transformers-fgv/blob/main/notebooks/03_respostas_automaticas.ipynb) |
-| `04_imagem` | Vision Transformer, Deep Dream e texto → imagem | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pgcferreira-stack/aula-transformers-fgv/blob/main/notebooks/04_imagem.ipynb) |
-| `05_miniprojeto_texto_imagem` | Miniprojeto: DreamBooth + LoRA (entrega em 2 semanas) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pgcferreira-stack/aula-transformers-fgv/blob/main/notebooks/05_miniprojeto_texto_imagem.ipynb) |
+| `01_classificacao_ner` | Classificação de texto e NER: ML clássico × transformers | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pgcferreira-stack/aula-transformers-fgv/blob/main/01_classificacao_ner.ipynb) |
+| `02_atencao_e_minigpt` | Arquitetura do transformer e um mini-GPT treinado do zero | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pgcferreira-stack/aula-transformers-fgv/blob/main/02_atencao_e_minigpt.ipynb) |
+| `03_respostas_automaticas` | Fine-tuning (LoRA) × RAG para respostas automáticas | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pgcferreira-stack/aula-transformers-fgv/blob/main/03_respostas_automaticas.ipynb) |
+| `04_imagem` | Vision Transformer, Deep Dream e texto → imagem | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pgcferreira-stack/aula-transformers-fgv/blob/main/04_imagem.ipynb) |
+| `05_miniprojeto_texto_imagem` | Miniprojeto: DreamBooth + LoRA (entrega em 2 semanas) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pgcferreira-stack/aula-transformers-fgv/blob/main/05_miniprojeto_texto_imagem.ipynb) |
 
 As células marcadas com `# TODO` são para vocês completarem: troquem o `...` pelo código.
 
 ## Dados e modelos
 - Reviews: [B2W-Reviews01](https://huggingface.co/datasets/ruanchaves/b2w-reviews01)
 - *Dom Casmurro*, de Machado de Assis (Projeto Gutenberg, domínio público)
-- `dados/faq_lojaaurora.jsonl`: FAQ de uma loja fictícia criado para a aula
+- `faq_lojaaurora.jsonl`: FAQ de uma loja fictícia criado para a aula
 - Modelos abertos do Hugging Face Hub. A licença de cada um está no *model card*.
